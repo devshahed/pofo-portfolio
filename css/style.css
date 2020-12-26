@@ -1,0 +1,263 @@
+									/*-------------*/
+									/*--Theme Css--*/
+									/*-------------*/
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+section{
+	overflow: hidden;
+}
+#portfolio{
+	padding-top: 100px;
+}
+p, .text-light-gray{
+    color: #6f6f6f;
+}
+.alt-font{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*e-resize hover*/
+.e-resize:hover{
+	cursor: e-resize;
+}
+.bg-light-gray{
+    background-color: #f7f7f7;
+}
+.bg-transparent-white{
+	background-color: #8c8c8c6e;
+}
+.bg-transparent-dark{
+	background-color: #00000096;
+}
+.bg-deep-pink{
+    background-color: #ff214f;
+}
+.bg-dark-footer{
+    background-color: #141414;
+}
+.bg-extra-dark-gray{
+	background-color: #1c1c1c!important;
+}
+.text-extra-large {
+    font-size: 20px;
+    line-height: 26px;
+}
+.font-size-11{
+	font-size: 11px;
+}
+.text-small{
+    font-size: 12px;
+    line-height: 20px;
+}
+.text-deep-pink{
+    color: #ff214f;
+}
+.text-medium-gray{
+    color: #939393;
+}
+.text-extra-dark-gray{
+    color: #232323;
+}
+.border-medium-dark-gray{
+	border-color:#363636 !important;
+}
+.box-shadow-light{
+    box-shadow: 0 0 3px rgba(0,0,0,.1);
+}
+.w-40{
+	width: 40%!important;
+}
+.icon-very-small{
+	vertical-align: middle;
+	padding-left: 0!important;
+}
+.white-hover:hover, .white-hover-1:hover{   /*white hover*/
+	background: white!important;
+	color: black!important;
+}
+.white-hover-1{
+	transition: all .5s;
+}
+.black-hover{
+	transition: all .5s;
+}
+.black-hover:hover{
+	background: black!important;
+	color: white!important;
+}
+header a img{
+	max-height: 26px;
+}
+.border-soft{
+	border-left: 1px solid rgba(255,255,255,.15);
+	border-right: 1px solid rgba(255,255,255,.15);
+}
+
+							/*header*/
+header i, header .nav-link{
+	transition: all .5s;
+}
+header .nav-link.active, header i:hover, header .nav-link:hover{
+	color: rgba(255,255,255,0.6)!important;
+}
+							/*service0*/
+#service0 i{
+	padding: 25px;
+	font-size: 30px;
+}
+
+							/*feature*/
+.btn{
+	letter-spacing: .5px!important;
+}
+				/*portfolio active class border-bottom*/
+#portfolio .nav-link.active{
+    border-bottom: 1px solid black!important;
+	color: black!important;
+}
+#portfolio .nav-link{
+    outline: none;
+}
+#portfolio .nav-link:hover{
+    border-bottom: 1px solid black!important;
+	color: black;
+}
+						/*testimonials part*/
+.testimonials .active>span{
+	background: black!important;
+}
+.owl-theme .owl-dots .owl-dot{
+    outline: none;
+}
+							/*start-video*/
+#start-video h1{
+	font-size: 39px;
+	line-height: 46px;
+}
+
+.owl-carousel .owl-item img{
+	max-width: 100%!important;
+	height: auto!important;
+	width: auto;
+}
+					/*latestBlog part*/
+#latestBlog a:hover{
+	text-decoration: none;
+	color:  #ff214f;
+}
+						/*footer part*/
+footer  a:hover span{
+	text-decoration: none;
+	color:  #ff214f;
+}
+.f-logo img{
+	max-height: 28px;
+}
+footer  a:hover{
+	text-decoration: none;
+}
+footer ul li a:hover i{
+	text-decoration: none;
+	color:  #ff214f;
+}
+#upper{
+	display: none;
+}
+.side-btn.side1{
+	right: -70px;
+    top: 130px;
+}
+.side-btn.side2{
+	right: -107px;
+    top: 170px;
+}
+.side-btn:hover span, .side-btn:hover i{
+	opacity: 1;
+	color: white!important;
+}
+.side-btn:hover{
+	right: 0!important;
+	background-color: #ff214f!important;
+}
+				/*--media--*/
+@media( max-width:1170px){
+	#home .w-80{
+		width: 100%!important
+	}
+}
+@media( max-width:991px){
+	#about{
+		background-position: right;
+    }
+	.w-80{
+		width: 100%!important;
+	}
+	.w-75{
+		width: 100%!important;
+	}
+	
+	.h-500{
+		height: 500px;
+	}
+	.side-btn{
+		display: none;
+	}
+	h1{
+    font-size: 30px!important;
+    line-height: 35px!important;
+	}
+    h2{
+        font-size: 24px!important;
+        line-height: 30px!important;
+	}
+	.display-3{
+		font-size: 40px;
+	}
+	#home .top-35{
+		top: 28%;
+	}
+}
+@media (max-width: 767px){
+	body {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	#home .home-heading{
+		font-size: 13px;
+	}
+	.header-searchbar{
+		width: 100%;
+	}
+	h1{
+    font-size: 24px!important;
+    line-height: 30px!important;
+	}
+	h2{
+		font-size: 20px!important;
+		line-height: 28px!important;
+	}
+	.display-3{
+		font-size: 40px;
+	}
+	#home .top-35{
+		top: 23%;
+	}
+	#home .home-heading{
+		font-size: 8px;
+	}
+	#portfolio .nav-link{
+		margin: 5px auto!important;
+	}
+	.carousel-indicators{
+		display: none;
+	}
+}
+@media (max-width: 576px){
+	.display-3{
+		font-size: 22px;
+	}
